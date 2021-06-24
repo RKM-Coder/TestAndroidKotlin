@@ -1,0 +1,8 @@
+package com.rtllabs.movies.ui.data.network.exception
+
+import java.io.IOException
+
+class UnAuthorizedException:IOException() {
+    override val message: String?
+        get() = "UnAuthorized"
+}
